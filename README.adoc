@@ -1,0 +1,7 @@
+= Automatic version upgrades
+
+This is an example project which supports my https://example.com[blog post
+about automatic version upgrades].
+
+It is intentionally empty as it has no other purpose than to different ways to
+manage automatic version upgrades with gradle.
