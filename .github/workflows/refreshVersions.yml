@@ -10,6 +10,9 @@ on:
 jobs:
   "Refresh-Versions":
     runs-on: "ubuntu-latest"
+    permissions:
+      pull-requests: write
+      contents: write
     steps:
       - id: step-0
         name: check-out
