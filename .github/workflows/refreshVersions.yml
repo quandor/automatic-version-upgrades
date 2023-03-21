@@ -27,6 +27,7 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: refreshVersions
+          build-root-directory: refreshVersions-plugin
       - id: step-4
         name: Pull Request
         uses: peter-evans/create-pull-request@v4

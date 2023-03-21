@@ -32,6 +32,7 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: refreshVersions
+          build-root-directory: refreshVersions-plugin
       - id: step-4
         name: Commit
         uses: EndBug/add-and-commit@v9

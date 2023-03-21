@@ -3,5 +3,14 @@
 This is an example project which supports my https://example.com[blog post
 about automatic version upgrades].
 
-It is intentionally empty as it has no other purpose than to different ways to
-manage automatic version upgrades with gradle.
+This repository contains two options how automatic version updates might be
+done.
+
+Directory `refreshVersions-plugin` contains a solution using
+https://jmfayard.github.io/refreshVersions/[RefreshVersions].
+
+Directory `gradle-version-catalog` contains a solution using 
+https://docs.gradle.org/8.0.2/userguide/platforms.html#sub:central-declaration-of-dependencies[Gradle version catalogs].
+
+Both solutions do not contain any actual code. The only purpose is to show 
+different ways to manage automatic version upgrades with gradle.
