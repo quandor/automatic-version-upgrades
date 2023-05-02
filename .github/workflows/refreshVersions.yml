@@ -33,7 +33,7 @@ jobs:
           build-root-directory: refreshVersions-plugin
       - id: step-4
         name: Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           branch: 'version-upgrades/new-versions-available'
           delete-branch: true
