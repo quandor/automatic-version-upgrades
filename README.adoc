@@ -1,7 +1,8 @@
 = Automatic version upgrades
 
-This is an example project which supports my https://example.com[blog post
-about automatic version upgrades].
+This is an example project which supports my
+https://www.novatec-gmbh.de/en/blog/up-to-date-dependencies/[blog post about
+automatic version upgrades].
 
 This repository contains two options how automatic version updates might be
 done.
